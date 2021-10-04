@@ -1,0 +1,21 @@
+.search-form__search-wrap{
+position: relative;
+z-index: 1;
+
+}
+.search-form__search-icon{
+  position: absolute;
+  z-index: 1;
+  left: 32px;
+  top: calc(50% - 8px);
+}
+.search-form__search{
+  padding-left: 74px;
+}
+.countries__item-wrap{
+  max-width: 260px;
+}
+.countries__img{
+  height: 160px;
+  object-fit: cover;
+}
