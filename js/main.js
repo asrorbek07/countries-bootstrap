@@ -177,20 +177,8 @@ function createCountriesItem(item){
  showCountriesItem()
 
 }
-let id=0;
-function changeCounrty() {
-  document.querySelectorAll(".countries__link").forEach(link => {
-    link.addEventListener('click', function () {
-      return link.id
-    })
-  });
-  }
-  if(changeCounrty()){
-    id=changeCounrty
-  }
-console.log(id)
-let selectedCounrty = id;
-console.log(selectedCounrty)
+
+let selectedCounrty = 1;
 
 if(document.querySelector(".country")){
 function showCountryDetal(){
