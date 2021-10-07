@@ -1,3 +1,45 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
+      url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff2"),
+      url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
+      url("../fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+:root{
+--font-family:"Nunito Sans", Arial, serif;
+}
+
+body{
+  font-family: var(--font-family);
+}
 .search-form__search-wrap{
 position: relative;
 z-index: 1;
@@ -18,4 +60,17 @@ z-index: 1;
 .countries__img{
   height: 160px;
   object-fit: cover;
+}
+
+/* Country page */
+
+.btn-back{
+  min-width: 136px;
+}
+.country__img{
+  max-width: 560px;
+
+}
+.country__link{
+  min-width: 96px;
 }

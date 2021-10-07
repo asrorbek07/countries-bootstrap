@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-light h-100 d-flex flex-column">
+    <header class="site-header py-4 bg-light shadow-sm">
+      <div
+        class="container-lg d-flex flex-column align-items-center justify-content-between flex-sm-row"
+      >
+        <a
+          href="#"
+          class="site-header__logo font-weight-bold text-dark mb-2 mb-sm-0"
+        >
+          Where in the world?
+        </a>
+        <button
+          class="site-header__theme-toggler btn-sm btn btn-light"
+          type="button"
+        >
+          <span
+            class="site-header__theme-toggler-inner d-flex align-items-center"
+          >
+            <svg
+              class="site-header__theme-toggler-icon mr-2"
+              width="20"
+              height="20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M13.553 13.815c-3.884 0-7.034-2.887-7.034-6.447 0-1.343.448-2.586 1.212-3.618-3.04.945-5.231 3.581-5.231 6.688 0 3.9 3.45 7.062 7.704 7.062 3.389 0 6.266-2.007 7.296-4.796a7.458 7.458 0 0 1-3.947 1.111Z"
+                fill="#fff"
+                stroke="#111517"
+                stroke-width="1.25"
+              />
+            </svg>
+            <span class="site-header__theme-toggler-text">Dark mode</span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main class="flex-grow-1 py-4 py-lg-5">
+      <section class="country container-lg">
+        <div class="p-lg-4 mb-5">
+          <a
+            href="index.html"
+            class="btn btn-light bg-white btn-back d-inline-flex justify-content-center align-items-center shadow-sm"
+          >
+            <svg
+              class="mr-2"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.46447 4.10744L7.64298 5.28596L3.75389 9.17504L18.6031 9.17504L18.6031 10.825L3.75389 10.825L7.64298 14.714L6.46447 15.8926L0.57191 10L6.46447 4.10744Z"
+                fill="#111517"
+              />
+            </svg>
+            <span>Back</span>
+          </a>
+        </div>
+        <div
+          class="row no-gutters justify-content-center justify-content-lg-between"
+        >
+          <div class="col-md-10 col-lg-5 mb-5 mb-lg-0">
+            <img
+              class="country__img d-block img-fluid w-100 rounded-lg"
+              src=""
+              alt="flag of German"
+              width="320"
+              height="230"
+            />
+          </div>
+          <div class="col-md-10 col-lg-6 py-lg-4">
+            <h1 class="h4 font-weight-bold mt-0 mb-3"></h1>
+            <div class="row no-gutters">
+              <div class="col-lg-6">
+                <dl class="mb-4">
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Native Name:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Population:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Region:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Sub Region:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold"></dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                </dl>
+              </div>
+              <div class="col-lg-6">
+                <dl class="">
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Top Level Domain:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Currencies:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                  <div class="d-flex mb-1">
+                    <dt class="mr-2 font-weight-bold">Languages:</dt>
+                    <dd class="mb-0 country__info"></dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap">
+              <h2 class="h5 font-weight-normal mr-3">Next Countries:</h2>
+              <ul class="d-flex flex-wrap list-unstyled mb-0">
+                <li class="mr-2 mb-3 mb-sm-0">
+                  <a
+                    href=""
+                    class="country__link btn btn-sm btn-light bg-white"
+                  >
+                    France
+                  </a>
+                </li>
+                <li class="mr-2 mb-3 mb-sm-0">
+                  <a
+                    href=""
+                    class="country__link btn btn-sm btn-light bg-white"
+                  >
+                    Germany
+                  </a>
+                </li>
+                <li class="mr-2 mb-3 mb-sm-0">
+                  <a
+                    href=""
+                    class="country__link btn btn-sm btn-light bg-white"
+                  >
+                    Netherlands
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer text-center bg-light shadow-sm py-3 mt-auto">
+      <div class="container-lg">
+        <p class="font-weight-bold text-dark small mb-0">
+          Copyright &copy Pad1$hax
+        </p>
+      </div>
+    </footer>
+
+    <!-- Templates -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
